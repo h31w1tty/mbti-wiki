@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  border: 0;
+  background-color: #ebebeb;
+}
+hr {
+  margin: 5vh 0px;
+  border: solid #000 1px;
+}
+.alinH{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corPrimaria{
+  background-color: #aaa3bf;
+}
+.sombra{
+  box-shadow: #13272e47 4px 4px 10px;
+}
+.hero{
+  display: grid;
+  justify-items: center;
+}
+p{
+  text-align: center;
+}
+.grupoBtn{
+  display: grid;
+  justify-items: center;
+}
+.grupoBtn *{
+  margin: 1vh;
+  width: 65vw;
+  height: 40px;
+  border: none;
+}
+
+.fundoTop{
+  min-height: 5vh;
+  background-image: url('img/FundoTop.svg');
+  border-bottom: #aaa3bf solid 1px;
+}
+.fundoMeio{
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  background-color: #aaa3bf;
+}
+.Seletor, .Comparação, .Livro{
+  display: grid;
+  justify-items: center;
+}
+.card1, .card2, .card3{
+  background-color: white;
+  width: 65vw;
+  height: 180px;
+}
+.fundoBottom{
+  min-height: 5vh;
+  background-image: url('img/FundoTop.svg');
+  transform: rotate(180deg);
+  background-color: #232C2F;
+  display: flex;
+  justify-content: start;
+}
+.descobrir{
+  margin-left: -2px;
+  padding: 6px;
+  justify-self: start;
+  border: 2px solid white;
+}
+.irAoTopo{
+  border: 2px solid white;
+  margin-left: -2px;
+  transform: rotate(180deg);
+}
+footer{
+  background-color: #232C2F;
+  padding: 5px;
+  margin-top: -1px;
+}
+footer *{
+  color: white;
+}
