@@ -14,7 +14,7 @@ h1{
   font-weight: 730;
   color: #232C2F;
 }
-p{
+.titulo2{
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
   font-size: x-large;
@@ -27,6 +27,12 @@ p{
 }
 .corPrimaria{
   background-color: #aaa3bf;
+}
+.fonteBtn{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+  font-size: medium;
+  color: #232C2F;
 }
 .sombra{
   box-shadow: #13272e47 4px 4px 10px;
