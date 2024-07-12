@@ -3,7 +3,7 @@
 body{
   margin: 0;
   border: 0;
-  background-color: #ebebeb;
+  background: linear-gradient(to top, #232C2F 50%, #ebebeb 50%);
 }
 hr {
   margin: 5vh 0px;
@@ -32,6 +32,10 @@ h1{
 .sombra{
   box-shadow: #13272e47 4px 4px 10px;
 }
+.absolute{
+  position: absolute;
+  z-index: 99;
+}
 .hero{
   display: grid;
   justify-items: center;
@@ -49,7 +53,6 @@ p{
   height: 40px;
   border: none;
 }
-
 .fundoTop{
   background: linear-gradient(to bottom, #ebebeb 50%, #aaa3bf 50%);
   margin-bottom: -1px;
@@ -87,18 +90,12 @@ label{
   font-size: medium;
 }
 .fundoBottom{
+  width: 100vw;
+  height: 100px;
+  background-image: url(./img/FundoBottom.svg);
   margin-top: -1px;
-  background: linear-gradient(to top, #232C2F 50%, #aaa3bf 50%);
   display: flex;
 }
-.fundoBottomImg{
-  transform: rotate(180deg);
-  width: 100vw;
-}
-.absolute{
-  position: absolute;
-}
-
 .descobrir, .irAoTopo{
   border: white solid 2px;
 }
@@ -166,10 +163,13 @@ form{
   width: fit-content;
   padding: 10px 15px;
 }
-
-.btn:active{
-  transform: scale(0.99);
-}
 .nrm:active{
   box-shadow: none;
+  transform: scale(0.99);
+}
+.descobrir:active{
+  transform: translate(-2px);  
+}
+.irAoTopo:active{
+  transform: translate(2px);
 }
