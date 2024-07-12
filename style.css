@@ -14,7 +14,7 @@ h1{
   font-weight: 730;
   color: #232C2F;
 }
-.titulo2{
+.titulo1{
   font-family: "Montserrat", sans-serif;
   font-weight: 350;
   font-size: x-large;
@@ -67,11 +67,24 @@ p{
 .Seletor, .Comparação, .Livro{
   display: grid;
   justify-items: center;
+  margin-block: 15px;
+}
+label{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: x-large;
+  color: #232C2F;
+  margin: 18px;
 }
 .card1, .card2, .card3{
-  background-color: white;
   width: 65vw;
   height: 180px;
+  align-content: space-around;
+  background-color: white;
+  color: #232C2F;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: medium;
 }
 .fundoBottom{
   margin-top: -1px;
@@ -104,4 +117,51 @@ footer{
 }
 footer *{
   color: white;
+}
+.redes{
+  display: grid;
+  justify-items: center;
+}
+.titulo2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.grupoIcones{
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconesRedes{
+  background-color: #ebebeb;
+}
+.obgd{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+.titulo3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.email{
+  display: grid;
+  justify-items: center;
+}
+form{
+  width: 80vw;
+  height: 15vh;
+  display: grid;
+  background-color: #ebebeb;
+  padding: 10px;
+}
+.input{
+  margin: 5px;
+  padding: 4px;
+  border: solid 3px #232C2F;
+}
+.enviar{
+  width: fit-content;
+  padding: 10px 15px;
 }
