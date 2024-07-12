@@ -160,6 +160,7 @@ form{
   margin: 5px;
   padding: 4px;
   border: solid 3px #232C2F;
+  color: #232C2F;
 }
 .enviar{
   width: fit-content;
