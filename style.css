@@ -166,3 +166,10 @@ form{
   width: fit-content;
   padding: 10px 15px;
 }
+
+.btn:active{
+  transform: scale(0.99);
+}
+.nrm:active{
+  box-shadow: none;
+}
