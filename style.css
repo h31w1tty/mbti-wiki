@@ -20,11 +20,6 @@ h1{
   font-size: x-large;
   color: #232C2F;
 }
-.alinH{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .corPrimaria{
   background-color: #aaa3bf;
 }
@@ -56,9 +51,12 @@ p{
 }
 
 .fundoTop{
-  min-height: 5vh;
-  background-image: url('img/FundoTop.svg');
-  border-bottom: #aaa3bf solid 1px;
+  background: linear-gradient(to bottom, #ebebeb 50%, #aaa3bf 50%);
+  margin-bottom: -1px;
+  display: flex;
+}
+.fundoTopImg{
+  width: 100vw;
 }
 .fundoMeio{
   display: grid;
@@ -76,23 +74,28 @@ p{
   height: 180px;
 }
 .fundoBottom{
-  min-height: 5vh;
-  background-image: url('img/FundoTop.svg');
-  transform: rotate(180deg);
-  background-color: #232C2F;
+  margin-top: -1px;
+  background: linear-gradient(to top, #232C2F 50%, #aaa3bf 50%);
   display: flex;
-  justify-content: start;
+}
+.fundoBottomImg{
+  transform: rotate(180deg);
+  width: 100vw;
+}
+.absolute{
+  position: absolute;
+}
+
+.descobrir, .irAoTopo{
+  border: white solid 2px;
 }
 .descobrir{
-  margin-left: -2px;
-  padding: 6px;
-  justify-self: start;
-  border: 2px solid white;
+  left: 0;
+  border-left: none;
 }
 .irAoTopo{
-  border: 2px solid white;
-  margin-left: -2px;
-  transform: rotate(180deg);
+  right: 0;
+  border-right: none;
 }
 footer{
   background-color: #232C2F;
