@@ -48,8 +48,8 @@
       
     </div>
     <div class="fundoBottom">
-      <button class="contrario descobrir absolute sombra corPrimaria">Descobrir MBTI <img src="./img/SetaDireita.svg" alt="descobrir"></button>
-      <button class="contrario irAoTopo absolute sombra corPrimaria"><img src="./img/SetaCima.svg" alt="IrAoTopo"></button>
+      <button class="contrario descobrir absolute sombra corPrimaria">Descobrir MBTI <img src="./img/SetaDireita.svg" alt="descobrir" style="margin-inline: 5px;"></button>
+      <button class="contrario irAoTopo absolute sombra corPrimaria" onclick="irAoTopo()"><img src="./img/SetaCima.svg" alt="IrAoTopo"></button>
     </div>
 
 
@@ -75,5 +75,11 @@
     </div>
     <p>&copy; 2024 h31w1tty. Todos os direitos reservados.</p>
   </footer>
+
+  <script>
+    function irAoTopo(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
