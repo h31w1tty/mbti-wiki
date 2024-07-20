@@ -5,53 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>MBTI - Wikipédia!</title>
+  <title>MBTI - Seletor!</title>
 </head>
 <body>
-  <br>
-  <hr>
-  <div class="hero">
-    <img src="./img/Logo.svg" alt="Logo" style="width: 80vw;"> 
-    <h1>Bem-Vindo!</h1>
-    <p class="titulo1">Escolha e veja as diferenças <br> entre os MBTI's</p>
-  </div>
-  <hr>
 
-  <div class="grupoBtn">
-    <button class="nrm fonteBtn sombra corPrimaria" onclick="seletor()">Seletor</button>
-    <button class="nrm fonteBtn sombra corPrimaria">Comparação</button>
-    <button class="nrm  fonteBtn sombra corPrimaria">Livro</button>
-  </div>
-  <br>
-  <br>
+  <h1>Seletor</h1>
+
   <main>
+
     <div class="fundoTop">
+      <div class="hero2">
+        <img class="mbti1" src="" alt="mbti">
+      </div>
+      <div class="seletor">
+        <div id="">E</div>
+        <div id="">N</div>
+        <div id="">T</div>
+        <div id="">P</div>
+        <div id="">I</div>
+        <div id="">S</div>
+        <div id="">F</div>
+        <div id="">J</div>
+      </div>
     </div>
 
     <div class="fundoMeio">
+      <hr>
       <br>
       <div class="Seletor">
         <label for="card1">Seletor</label>
         <div name="card1" class="card sombra"><p>Escolha letra por letra e <br> modifique o MBTI atual, <br> forme a combinação de <br> letras que quiser.</p></div>
       </div>
-
-      <div class="Comparação">
-        <label for="card2">Comparação</label>
-        <div name="card2" class="card sombra"><p>Depois de ter selecionado <br> dois MBTI's diferentes, a <br> comparação de letras <br> mostra as diferenças.</p></div>
-      </div>
-
-      <div class="Livro">
-        <label for="card3">Livro</label>
-        <div name="card3" class="card sombra"><p>Todos os MBTI's <br> organizados e detalhados <br> categóricamente.</p></div>
-      </div>
-      <br>
-      
     </div>
+
     <div class="fundoBottom">
       <button class="contrario descobrir absolute sombra corPrimaria">Descobrir MBTI <img src="./img/SetaDireita.svg" alt="descobrir" style="margin-inline: 5px;"></button>
       <button class="contrario irAoTopo absolute sombra corPrimaria" onclick="irAoTopo()"><img src="./img/SetaCima.svg" alt="IrAoTopo"></button>
     </div>
-
 
   </main>
   <footer>
@@ -76,23 +66,23 @@
     <p>&copy; 2024 h31w1tty. Todos os direitos reservados.</p>
   </footer>
   <div class="info" onclick="esconderInfo()">
-      <label for="placa">Sobre</label>
-      <div name="placa" class="placa">
-        <p>
-        Um dos projetos de
-        <br> h31w1tty<br>
-        <br>
-        Este é um projeto simples<br>
-        que tem como finalidade<br>
-        principal exercitar minhas<br>
-        habilidades de desenvolvimento<br>
-        web, sem nenhuma finalidade<br>
-        lucrativa. Pública e de código<br>
-        aberto, espero que gostem!
-        </p>
-      </div>
+    <label for="placa">Sobre</label>
+    <div name="placa" class="placa">
+      <p>
+      Um dos projetos de
+      <br> h31w1tty<br>
+      <br>
+      Este é um projeto simples<br>
+      que tem como finalidade<br>
+      principal exercitar minhas<br>
+      habilidades de desenvolvimento<br>
+      web, sem nenhuma finalidade<br>
+      lucrativa. Pública e de código<br>
+      aberto, espero que gostem!
+      </p>
+    </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

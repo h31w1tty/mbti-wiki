@@ -80,7 +80,7 @@ label{
   color: #232C2F;
   margin: 18px;
 }
-.card1, .card2, .card3{
+.card{
   width: 65vw;
   height: 180px;
   align-content: space-around;
@@ -97,7 +97,7 @@ label{
   display: flex;
 }
 .descobrir, .irAoTopo{
-  border: white solid 2px;
+  border: white solid 3px;
 }
 .descobrir{
   padding-block: 3px;
@@ -134,7 +134,13 @@ footer *{
   justify-content: space-evenly;
 }
 .iconesRedes{
-  background-color: #ebebeb;
+  width: 40px;
+  border: #0000004d solid 0.06cm;
+  border-radius: 6px;
+  padding: 2px;
+}
+.iconesRedes:hover{
+  cursor: pointer;
 }
 .obgd{
   font-family: "Montserrat", sans-serif;
@@ -176,4 +182,31 @@ form{
 }
 .irAoTopo:active{
   transform: translate(2px);
+}
+.info{
+  background-color: #8b8b8bd4;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  justify-items: center;
+  align-content: center;
+}
+.info > label{
+  width: fit-content;
+  height: fit-content;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: x-large;
+  color: #fff;
+}
+.placa{
+  background-color: #f7f7f7;
+  padding: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
 }
